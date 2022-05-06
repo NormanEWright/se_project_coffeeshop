@@ -1,20 +1,25 @@
 @import url(../vendor/normalize.css);
 
-/* 
-font-family: 'Noto Serif', 'Times New Roman', serif; */
+/* font-family: 'Noto Serif', 'Times New Roman', serif; */
 
 .page {
   min-width: 1100px;
   max-width: 1600px;
   margin: auto;
   font-family: 'Inter', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  position: relative;
 }
 
 .header {
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
   background-color: #FFFFFF;
-  background-image: url('./images/background_header.svg');
+  background-image: url('/images/background_header.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -23,19 +28,31 @@ font-family: 'Noto Serif', 'Times New Roman', serif; */
 .nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+}
+
+.logo {
+  width: 125px;
+  height: 142px;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 .nav__links {
   list-style: none;
   padding-left: 0;
-  margin-top: 8px;
+  margin-top: 30px;
+  margin-right: 80px;
   display: flex;
   align-items: flex-start;
   column-gap: 20px;
 }
 
 .nav__link {
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
   color: #000000;
   text-decoration: none;
   font-weight: bold;
@@ -44,4 +61,59 @@ font-family: 'Noto Serif', 'Times New Roman', serif; */
 
 .nav__link:hover {
   color: #2F80ED;
+}
+
+.header__title {
+  margin-top: 80px;
+  margin-left: 80px;
+  margin-bottom: 0px;
+  max-width: 729px;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.header__span-accent {
+  display: block;
+  color: #2F80ED;
+  font-family: 'Noto Serif', 'Times New Roman', serif;
+  font-style: italic;
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.header__description {
+  margin-top: 28px;
+  margin-left: 80px;
+  max-width: 683px;
+  font-family: 'Noto Serif', 'Times New Roman', serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__image {
+  position: absolute;
+  top: 124px;
+  right: 5px;
+  width: 646px;
+  height: 568px;
+}
+
+.header__footer {
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+  width: 100%;
+  padding: 0px 80px 40px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+
+.header__pargraph {
+  margin: 0;
+  padding: 0;
+  color: #6f6f6f;
 }
