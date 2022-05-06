@@ -11,3 +11,37 @@ font-family: 'Noto Serif', 'Times New Roman', serif; */
   font-size: 16px;
   line-height: 20px;
 }
+
+.header {
+  background-color: #FFFFFF;
+  background-image: url('./images/background_header.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__links {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 8px;
+  display: flex;
+  align-items: flex-start;
+  column-gap: 20px;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav__link:hover {
+  color: #2F80ED;
+}
