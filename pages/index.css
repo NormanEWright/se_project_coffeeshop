@@ -14,7 +14,6 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  position: relative;
 }
 
 /* Header Section */
@@ -310,6 +309,7 @@
 
 .form__button {
   color: #FFFFFF;
+  font-weight: 500;
   border-radius: 4px;
   height: 60px;
   width: 385px;
