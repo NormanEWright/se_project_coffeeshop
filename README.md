@@ -19,4 +19,4 @@ The project was slightly improved by:
 2. Adding custom styles to form inputs.
 3. Making form input fields required.
 4. Using javascript to add placeholder text to the "number of guests" input field.
-5. Prevent default form submission using javascript.
+5. Preventing default form submission using javascript.
