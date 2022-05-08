@@ -243,7 +243,7 @@
 }
 
 .recipes__subtitle {
-  max-width: 480px;
+  max-width: 438px;
   margin-top: 24px;
   margin-left: 80px;
   margin-bottom: 80px;
@@ -275,6 +275,7 @@
   line-height: 30px;
 }
 
+/* Reservation Section */
 .reservation {
   padding-top: 100px;
   padding-bottom: 120px;
@@ -316,8 +317,8 @@
   font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 30px;
   border-width: 1px;
   border-radius: 4px;
   margin-bottom: 32px;
@@ -369,7 +370,7 @@
 /* About Section */
 .about {
   padding: 100px 80px 173px;
-  background-color: #1f1f1f;
+  background-color: #0A1A40;
   color: #fff;
   overflow: hidden;
   position: relative;
