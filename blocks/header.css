@@ -9,6 +9,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  z-index: 1;
 }
 
 .header__title {
@@ -46,6 +47,7 @@
   right: 5px;
   width: 646px;
   height: 568px;
+  z-index: -1;
 }
 
 .header__footer {
