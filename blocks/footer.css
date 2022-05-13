@@ -53,20 +53,17 @@
 .footer__social-icon {
   height: 16px;
   width: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .footer__social-icon_type_facebook {
   background-image: url('../images/facebook_white.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 
 .footer__social-icon_type_instagram {
   background-image: url('../images/instagram_white.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 
 .footer__copyright {
