@@ -24,6 +24,7 @@
 
 .footer__list {
   margin-top: 20px;
+  margin-bottom: 0px;
   list-style: none;
   padding-left: 0;
 }
@@ -54,14 +55,14 @@
   width: 16px;
 }
 
-.footer__social-icon_facebook {
+.footer__social-icon_type_facebook {
   background-image: url('../images/facebook_white.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 
-.footer__social-icon_instagram {
+.footer__social-icon_type_instagram {
   background-image: url('../images/instagram_white.svg');
   background-repeat: no-repeat;
   background-position: center;
