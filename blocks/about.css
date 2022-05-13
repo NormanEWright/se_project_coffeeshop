@@ -32,12 +32,10 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  z-index: 3;
 }
 
 .about__content {
   max-width: 660px;
-  z-index: 3;
 }
 
 .about__paragraph {
@@ -55,7 +53,7 @@
   position: absolute;
   top: -159px;
   left: -129px;
-  z-index: 2;
+  z-index: -1;
 }
 
 .about__circle_animation_blurred {
