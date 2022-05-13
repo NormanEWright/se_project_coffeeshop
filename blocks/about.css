@@ -16,14 +16,14 @@
 
 .about {
   padding: 100px 80px 173px;
-  background-color: #0A1A40;
+  background-color: #1f1f1f;
   color: #fff;
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
-  z-index: -2;
+  z-index: 1;
 }
 
 .about__title {
@@ -32,12 +32,12 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  z-index: 1;
+  z-index: 3;
 }
 
 .about__content {
   max-width: 660px;
-  z-index: 1;
+  z-index: 3;
 }
 
 .about__paragraph {
@@ -55,7 +55,7 @@
   position: absolute;
   top: -159px;
   left: -129px;
-  z-index: -1;
+  z-index: 2;
 }
 
 .about__circle_animation_blurred {
