@@ -19,3 +19,5 @@ The project was slightly improved by:
 2. Adding custom styles to form inputs.
 3. Making all form input fields required.
 4. Using lists for collections of similar items.
+
+____
